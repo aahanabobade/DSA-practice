@@ -1,25 +1,28 @@
 class Solution(object):
-    def islandPerimeter(self, grid):
+    def addBinary(self, a, b):
         """
-        :type grid: List[List[int]]
-        :rtype: int
+        :type a: str
+        :type b: str
+        :rtype: str
         """
+        i = len(a)-1
+        j = len(b)-1
+        carry = 0
+        result=[]
 
-        perimeter = 0
+        while i>= 0 or j>=0 or carry:
+            total = carry
 
-        n = len(grid)
-        m = len(grid[0])
+            if i >=0:
+                total+=int(a[i])
+                i-=1
+            
+            if j>=0:
+                total+=int(b[j])
+                j-=1
+            
+            result.append(str(total%2))
+            carry= total//2
 
+        return "".join(result[::-1])
 
-        for i in range(n):
-            for j in range(m):
-                if grid[i][j]==1:
-                    perimeter+=4
-
-                    if i> 0 and grid[i-1][j]==1:
-                        perimeter-=2
-                    
-                    if j >0 and grid[i][j-1]==1:
-                        perimeter-=2
-        
-        return perimeter
