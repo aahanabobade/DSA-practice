@@ -24,19 +24,3 @@ Solutions are written in **Python** and automatically pushed via [LeetSync](http
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/aahana-bobade)
 - 🧑‍💻 [LeetCode](https://leetcode.com/u/aahanabobade/)
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0303-range-sum-query-immutable](https://github.com/aahanabobade/DSA-practice/tree/master/0303-range-sum-query-immutable) |
-## Design
-|  |
-| ------- |
-| [0303-range-sum-query-immutable](https://github.com/aahanabobade/DSA-practice/tree/master/0303-range-sum-query-immutable) |
-## Prefix Sum
-|  |
-| ------- |
-| [0303-range-sum-query-immutable](https://github.com/aahanabobade/DSA-practice/tree/master/0303-range-sum-query-immutable) |
-<!---LeetCode Topics End-->
