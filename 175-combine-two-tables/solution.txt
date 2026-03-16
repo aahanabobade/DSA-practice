@@ -1,0 +1,15 @@
+// Combine Two Tables
+// Difficulty: Easy
+// Runtime: 236 ms
+// Memory: 0B
+// https://leetcode.com/problems/combine-two-tables/
+
+-- Write your PostgreSQL query statement below
+SELECT 
+    Person.firstName,
+    Person.lastName,
+    Address.city,
+    Address.state
+FROM Person
+LEFT JOIN Address
+ON Person.personId = Address.personId;
