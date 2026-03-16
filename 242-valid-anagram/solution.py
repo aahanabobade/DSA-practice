@@ -1,7 +1,7 @@
 # Valid Anagram
 # Difficulty: Easy
 # Runtime: 15 ms
-# Memory: 12.7 MB
+# Memory: 12.4 MB
 # https://leetcode.com/problems/valid-anagram/
 
         
