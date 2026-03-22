@@ -26,6 +26,6 @@ Follow up: Could you minimize the total number of operations done?
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 7 ms  
-**Memory:** 13.5 MB  
+**Runtime:** 2 ms  
+**Memory:** 13.6 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/move-zeroes/)
