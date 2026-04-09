@@ -38,7 +38,6 @@ Return the result table in any order.
 The result format is in the following example.
 
  
-
 Example 1:
 
 Input: 
@@ -70,6 +69,6 @@ addressId = 1 contains information about the address of personId = 2.
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 236 ms  
+**Runtime:** 378 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/combine-two-tables/)
