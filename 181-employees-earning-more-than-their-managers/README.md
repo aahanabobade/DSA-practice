@@ -46,6 +46,6 @@ Explanation: Joe is the only employee who earns more than his manager.
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 344 ms  
+**Runtime:** 375 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/employees-earning-more-than-their-managers/)
