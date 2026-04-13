@@ -1,0 +1,11 @@
+-- Rank Scores
+-- Difficulty: Medium
+-- Runtime: 343 ms
+-- Memory: 0B
+-- https://leetcode.com/problems/rank-scores/
+
+# Write your MySQL query statement below
+SELECT 
+    score,
+    DENSE_RANK() OVER (ORDER BY score DESC) AS `rank`
+FROM Scores;
