@@ -1,6 +1,6 @@
 -- Customer Placing the Largest Number of Orders
 -- Difficulty: Easy
--- Runtime: 414 ms
+-- Runtime: 473 ms
 -- Memory: 0B
 -- https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/
 
