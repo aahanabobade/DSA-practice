@@ -50,6 +50,6 @@ Follow up: What if more than one customer has the largest number of orders, can 
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 414 ms  
+**Runtime:** 473 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)
