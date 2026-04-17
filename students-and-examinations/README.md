@@ -49,7 +49,6 @@ Return the result table ordered by student_id and subject_name.
 The result format is in the following example.
 
  
-
 Example 1:
 
 Input: 
@@ -113,6 +112,6 @@ John attended the Math exam 1 time, the Physics exam 1 time, and the Programming
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 1034 ms  
+**Runtime:** 925 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/students-and-examinations/)
