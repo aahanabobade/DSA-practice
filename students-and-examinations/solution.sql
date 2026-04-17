@@ -1,13 +1,9 @@
 -- Q1. Students and Examinations
 -- Difficulty: Easy
--- Runtime: 1034 ms
+-- Runtime: 925 ms
 -- Memory: 0B
 -- https://leetcode.com/problems/students-and-examinations/
 
-    s.student_id,
-    s.student_name,
-    sub.subject_name,
-    COUNT(e.subject_name) AS attended_exams
 FROM Students s
 CROSS JOIN Subjects sub
 LEFT JOIN Examinations e
