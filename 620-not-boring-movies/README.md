@@ -24,6 +24,7 @@ Return the result table ordered by rating in descending order.
 The result format is in the following example.
 
  
+
 Example 1:
 
 Input: 
@@ -50,6 +51,6 @@ We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 i
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 246 ms  
+**Runtime:** 258 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/not-boring-movies/)
