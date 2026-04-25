@@ -39,6 +39,7 @@ Return the result table in any order.
 The result format is in the following example.
 
  
+
 Example 1:
 
 Input: 
@@ -75,6 +76,6 @@ Average selling price for product 2 = ((200 * 15) + (30 * 30)) / 230 = 16.96
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 831 ms  
+**Runtime:** 797 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/average-selling-price/)
