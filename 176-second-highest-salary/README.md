@@ -57,6 +57,6 @@ Output:
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 257 ms  
+**Runtime:** 311 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/second-highest-salary/)
