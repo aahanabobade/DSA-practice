@@ -35,7 +35,6 @@ Return the result table in any order.
 The result format is in the following example.
 
  
-
 Example 1:
 
 Input: 
@@ -76,6 +75,6 @@ The unique ID of Jonathan is 1.
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 1181 ms  
+**Runtime:** 1403 ms  
 **Memory:** 0B  
 **Link:** [LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)
