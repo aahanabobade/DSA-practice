@@ -25,7 +25,6 @@ Write a solution to find the percentage of immediate orders in the first orders 
 The result format is in the following example.
 
  
-
 Example 1:
 
 Input: 
