@@ -1,0 +1,15 @@
+-- Employees Whose Manager Left the Company
+-- Difficulty: Easy
+-- Runtime: 366 ms
+-- Memory: 0B
+-- https://leetcode.com/problems/employees-whose-manager-left-the-company/
+
+# Write your MySQL query statement below
+SELECT employee_id
+FROM Employees
+WHERE salary < 30000
+  AND manager_id IS NOT NULL
+  AND manager_id NOT IN (
+      SELECT employee_id FROM Employees
+  )
+ORDER BY employee_id;
