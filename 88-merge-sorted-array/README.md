@@ -50,5 +50,5 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 
 **Difficulty:** Easy  
 **Runtime:** 0 ms  
-**Memory:** 12.4 MB  
+**Memory:** 12.3 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/merge-sorted-array/)
