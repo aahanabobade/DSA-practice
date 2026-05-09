@@ -38,6 +38,6 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 107 ms  
+**Runtime:** 106 ms  
 **Memory:** 21.1 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/maximum-subarray/)
