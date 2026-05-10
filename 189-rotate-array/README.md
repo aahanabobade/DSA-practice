@@ -41,6 +41,6 @@ Follow up:
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 7 ms  
-**Memory:** 22.2 MB  
+**Runtime:** 16 ms  
+**Memory:** 22.3 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/rotate-array/)
