@@ -1,14 +1,20 @@
 # Maximum Product Subarray
 # Difficulty: Medium
-# Runtime: 13 ms
-# Memory: 13.2 MB
+# Runtime: 15 ms
+# Memory: 13.1 MB
 # https://leetcode.com/problems/maximum-product-subarray/
 
-                max_prod, min_prod = min_prod, max_prod
+        curr_max = nums[0]
+        curr_min = nums[0]
+        ans= nums[0]
 
-            max_prod = max(num, max_prod * num)
-            min_prod = min(num, min_prod * num)
+        for i in range(1,n):
+            temp_max = max(nums[i],curr_max*nums[i],curr_min*nums[i])
+            temp_min = min(nums[i],curr_max*nums[i],curr_min*nums[i])
 
-            result = max(result, max_prod)
+            curr_max = temp_max
+            curr_min = temp_min
+        
+            ans = max(curr_max, ans)
 
-        return result
+        return ans
