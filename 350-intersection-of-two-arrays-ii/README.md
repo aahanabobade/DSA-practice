@@ -35,6 +35,6 @@ Follow up:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 19 ms  
-**Memory:** 12.4 MB  
+**Runtime:** 0 ms  
+**Memory:** 12.5 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
