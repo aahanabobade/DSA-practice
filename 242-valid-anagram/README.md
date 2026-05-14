@@ -33,6 +33,6 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt yo
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 15 ms  
-**Memory:** 12.7 MB  
+**Runtime:** 27 ms  
+**Memory:** 13.4 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/valid-anagram/)
