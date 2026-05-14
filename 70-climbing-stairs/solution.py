@@ -1,13 +1,25 @@
 # Climbing Stairs
 # Difficulty: Easy
 # Runtime: 0 ms
-# Memory: 12.3 MB
+# Memory: 12.4 MB
 # https://leetcode.com/problems/climbing-stairs/
 
+class Solution(object):
+    def climbStairs(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n <=2:
+            return n
         
-        a, b = 1, 2
+        first = 1
+        second = 2
+
+        for i in range(3,n+1):
+            current =first+second
+            first = second
+            second = current
         
-        for _ in range(3, n + 1):
-            a, b = b, a + b
-        
-        return b
+        return second
+
