@@ -54,5 +54,5 @@ Follow up: Could you solve it iteratively?
 
 **Difficulty:** Medium  
 **Runtime:** 7 ms  
-**Memory:** 12.6 MB  
+**Memory:** 12.5 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/count-and-say/)
