@@ -1,17 +1,21 @@
 # Count and Say
 # Difficulty: Medium
 # Runtime: 7 ms
-# Memory: 12.6 MB
+# Memory: 12.5 MB
 # https://leetcode.com/problems/count-and-say/
 
-                    count += 1
+        for j in range(n-1):
+            count= 1
+            ans = ""
+            for i in range (len(s)):
+                if i+1< len(s) and s[i]==s[i+1]:
+                    count+=1
                 else:
-                    current += str(count) + result[i - 1]
-                    count = 1
-            
-            # handle last group
-            current += str(count) + result[-1]
-            
-            result = current
-        
-        return result
+                    ans+=str(count)+s[i]
+        """
+        s = "1"
+        :type n: int
+        :rtype: str
+        """
+    def countAndSay(self, n):
+class Solution(object):
