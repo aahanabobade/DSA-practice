@@ -49,5 +49,5 @@ Constraints:
 
 **Difficulty:** Medium  
 **Runtime:** 0 ms  
-**Memory:** 12.5 MB  
+**Memory:** 12.6 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
