@@ -36,5 +36,5 @@ Constraints:
 
 **Difficulty:** Easy  
 **Runtime:** 0 ms  
-**Memory:** 12.8 MB  
+**Memory:** 13 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/search-insert-position/)
