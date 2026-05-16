@@ -45,6 +45,6 @@ Constraints:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 18 ms  
-**Memory:** 12.5 MB  
+**Runtime:** 15 ms  
+**Memory:** 12.3 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/guess-number-higher-or-lower/)
