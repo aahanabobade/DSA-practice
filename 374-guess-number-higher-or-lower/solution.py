@@ -1,33 +1,22 @@
 # Guess Number Higher or Lower
 # Difficulty: Easy
-# Runtime: 18 ms
-# Memory: 12.5 MB
+# Runtime: 15 ms
+# Memory: 12.3 MB
 # https://leetcode.com/problems/guess-number-higher-or-lower/
 
-# The guess API is already defined for you.
-# @param num, your guess
-# @return -1 if num is higher than the picked number
-#          1 if num is lower than the picked number
-#          otherwise return 0
-# def guess(num):
-
-class Solution(object):
-    def guessNumber(self, n):
-        """
-        :type n: int
         :rtype: int
         """
         left = 1
-        
         right = n
 
         while left<=right:
-            mid = (left+right)//2
-            result = guess(mid)
+            mid = left+(right-left)//2
 
-            if result == 0:
+            if result ==0:
                 return mid
-            elif result== -1:
-                right = mid -1
+            elif result == -1:
+                right =  mid -1
             else:
                 left = mid+1
+            result = guess(mid)
+        
