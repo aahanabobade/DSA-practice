@@ -42,6 +42,6 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comp
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 3 ms  
+**Runtime:** 0 ms  
 **Memory:** 13.2 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/two-sum/)
