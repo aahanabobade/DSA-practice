@@ -51,6 +51,6 @@ Constraints:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 2 ms  
-**Memory:** 13.9 MB  
+**Runtime:** 0 ms  
+**Memory:** 13.7 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
