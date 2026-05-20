@@ -32,6 +32,6 @@ Constraints:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 47 ms  
-**Memory:** 19.4 MB  
+**Runtime:** 35 ms  
+**Memory:** 18.9 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
