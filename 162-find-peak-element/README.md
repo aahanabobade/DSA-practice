@@ -33,5 +33,5 @@ Constraints:
 
 **Difficulty:** Medium  
 **Runtime:** 0 ms  
-**Memory:** 12.4 MB  
+**Memory:** 12.3 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/find-peak-element/)
