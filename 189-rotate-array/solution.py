@@ -1,21 +1,16 @@
 # Rotate Array
 # Difficulty: Medium
-# Runtime: 16 ms
-# Memory: 22.3 MB
+# Runtime: 0 ms
+# Memory: 22.6 MB
 # https://leetcode.com/problems/rotate-array/
 
-            while left < right:
-                nums[left], nums[right] = nums[right], nums[left]
-                left += 1
-                right -= 1
-
-        reverse(0, n - 1)
-        def reverse(left, right):
-
-        k = k%n
+class Solution(object):
+    def rotate(self, nums, k):
         n = len(nums)
-        """
-        :rtype: None Do not return anything, modify nums in-place instead.
+        k = k % n
 
-        reverse(0, k - 1)
+        nums.reverse()
 
+        nums[:k] = reversed(nums[:k])
+
+        nums[k:] = reversed(nums[k:])
