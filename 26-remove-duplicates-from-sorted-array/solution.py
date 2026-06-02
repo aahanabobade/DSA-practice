@@ -1,9 +1,10 @@
 # Remove Duplicates from Sorted Array
 # Difficulty: Easy
-# Runtime: 0 ms
-# Memory: 13.8 MB
+# Runtime: 4 ms
+# Memory: 13.9 MB
 # https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
+        :type nums: List[int]
         :rtype: int
         """
         n = len(nums)
