@@ -1,21 +1,21 @@
 # Integer to Roman
 # Difficulty: Medium
-# Runtime: 7 ms
-# Memory: 12.6 MB
+# Runtime: 3 ms
+# Memory: 12.5 MB
 # https://leetcode.com/problems/integer-to-roman/
 
-class Solution(object):
-    def intToRoman(self, num):
-        symList = [["I",1],["IV",4],["V",5],["IX",9],["X",10],["XL",40],["L",50],  ["XC",90],["C",100],["CD",400],["D",500],["CM",900],["M",1000]]
+        :type num: int
+        :rtype: str
+        """
+        values  = [1000,900,500,400,100,90,50,40,10,9,5,4,1]
+        symbols = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"]
+        n = len(values)
+        result = ""
 
+        for i in range(n):
+            while num>=values[i]:
+                result+=symbols[i]
+                num-=values[i]
+        
+        return result
 
-        res =""
-        for sym,val in reversed(symList):
-            if num//val:
-                count = num//val
-                res+=(sym*count)
-                num = num%val
-        
-        return res
-        
-        
