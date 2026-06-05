@@ -1,0 +1,23 @@
+# Pascal's Triangle
+# Difficulty: Easy
+# Runtime: 0 ms
+# Memory: 12.6 MB
+# https://leetcode.com/problems/pascals-triangle/
+
+class Solution(object):
+    def generate(self, numRows):
+        """
+        :type numRows: int
+        :rtype: List[List[int]]
+        """
+        triangle=[]
+
+        for i in range(numRows):
+            row=[1]*(i+1)
+
+            for j in range(1,i):
+                row[j]=triangle[i-1][j-1] +triangle[i-1][j]
+                
+            triangle.append(row)
+        
+        return triangle
