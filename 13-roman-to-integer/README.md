@@ -55,6 +55,6 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 16 ms  
+**Runtime:** 8 ms  
 **Memory:** 12.4 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/roman-to-integer/)
