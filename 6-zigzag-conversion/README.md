@@ -1,48 +1,54 @@
 # 6. Zigzag Conversion
 
-The string &quot;PAYPALISHIRING&quot; is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
 P   A   H   N
 A P L S I I G
 Y   I   R
 
-And then read line by line: &quot;PAHNAPLSIIGYIR&quot;
+
+And then read line by line: "PAHNAPLSIIGYIR"
 
 Write the code that will take a string and make this conversion given a number of rows:
 
 string convert(string s, int numRows);
 
-&nbsp;
+
+ 
 Example 1:
 
-Input: s = &quot;PAYPALISHIRING&quot;, numRows = 3
-Output: &quot;PAHNAPLSIIGYIR&quot;
+Input: s = "PAYPALISHIRING", numRows = 3
+Output: "PAHNAPLSIIGYIR"
+
 
 Example 2:
 
-Input: s = &quot;PAYPALISHIRING&quot;, numRows = 4
-Output: &quot;PINALSIGYAHRPI&quot;
+Input: s = "PAYPALISHIRING", numRows = 4
+Output: "PINALSIGYAHRPI"
 Explanation:
 P     I    N
 A   L S  I G
 Y A   H R
 P     I
 
+
 Example 3:
 
-Input: s = &quot;A&quot;, numRows = 1
-Output: &quot;A&quot;
+Input: s = "A", numRows = 1
+Output: "A"
 
-&nbsp;
+
+ 
 Constraints:
 
-	1 &lt;= s.length &lt;= 1000
-	s consists of English letters (lower-case and upper-case), &#39;,&#39; and &#39;.&#39;.
-	1 &lt;= numRows &lt;= 1000
+
+	1 <= s.length <= 1000
+	s consists of English letters (lower-case and upper-case), ',' and '.'.
+	1 <= numRows <= 1000
 
 ---
 
-**Difficulty:** Medium
-**Runtime:** 16 ms
-**Memory:** 12.6 MB
+**Difficulty:** Medium  
+**Runtime:** 3 ms  
+**Memory:** 12.4 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/zigzag-conversion/)
