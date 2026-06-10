@@ -28,6 +28,6 @@ Constraints:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 0 ms  
-**Memory:** 12.3 MB  
+**Runtime:** 3 ms  
+**Memory:** 12.4 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
