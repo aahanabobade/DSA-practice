@@ -41,6 +41,6 @@ Constraints:
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 141 ms  
-**Memory:** 12.7 MB  
+**Runtime:** 147 ms  
+**Memory:** 12.6 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/count-the-number-of-complete-components/)
