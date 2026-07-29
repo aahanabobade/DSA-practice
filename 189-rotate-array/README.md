@@ -3,6 +3,7 @@
 Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
  
+
 Example 1:
 
 Input: nums = [1,2,3,4,5,6,7], k = 3
@@ -23,24 +24,23 @@ rotate 2 steps to the right: [3,99,-1,-100]
 
 
  
+
 Constraints:
 
-
-	1 <= nums.length <= 105
-	-231 <= nums[i] <= 231 - 1
-	0 <= k <= 105
-
+1 <= nums.length <= 105
+-231 <= nums[i] <= 231 - 1
+0 <= k <= 105
 
  
+
 Follow up:
 
-
-	Try to come up with as many solutions as you can. There are at least three different ways to solve this problem.
-	Could you do it in-place with O(1) extra space?
+Try to come up with as many solutions as you can. There are at least three different ways to solve this problem.
+Could you do it in-place with O(1) extra space?
 
 ---
 
 **Difficulty:** Medium  
 **Runtime:** 0 ms  
-**Memory:** 22.6 MB  
+**Memory:** 23.4 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/rotate-array/)
