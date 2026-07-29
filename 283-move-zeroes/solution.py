@@ -1,20 +1,7 @@
 # Move Zeroes
 # Difficulty: Easy
-# Runtime: 7 ms
+# Runtime: 6 ms
 # Memory: 13.6 MB
 # https://leetcode.com/problems/move-zeroes/
 
-class Solution(object):
-    def moveZeroes(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
-        """
-        j = 0
-        n = len(nums)
-
-        for i in range(n):
-            if nums[i]!=0:
-                nums[j],nums[i] = nums[i], nums[j]
-                j +=1
-        
+c
