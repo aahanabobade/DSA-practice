@@ -7,6 +7,7 @@ You want to maximize your profit by choosing a single day to buy one stock and c
 Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
  
+
 Example 1:
 
 Input: prices = [7,1,5,3,6,4]
@@ -23,15 +24,15 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 
  
+
 Constraints:
 
-
-	1 <= prices.length <= 105
-	0 <= prices[i] <= 104
+1 <= prices.length <= 105
+0 <= prices[i] <= 104
 
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 35 ms  
-**Memory:** 18.9 MB  
+**Runtime:** 50 ms  
+**Memory:** 19.5 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
