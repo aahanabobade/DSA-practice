@@ -1,16 +1,7 @@
 # Rotate Array
 # Difficulty: Medium
 # Runtime: 0 ms
-# Memory: 22.6 MB
+# Memory: 23.4 MB
 # https://leetcode.com/problems/rotate-array/
 
-class Solution(object):
-    def rotate(self, nums, k):
-        n = len(nums)
-        k = k % n
-
-        nums.reverse()
-
-        nums[:k] = reversed(nums[:k])
-
-        nums[k:] = reversed(nums[k:])
+c
