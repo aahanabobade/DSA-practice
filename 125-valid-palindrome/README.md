@@ -37,6 +37,6 @@ Constraints:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 23 ms  
-**Memory:** 12.5 MB  
+**Runtime:** 28 ms  
+**Memory:** 12.7 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/valid-palindrome/)
