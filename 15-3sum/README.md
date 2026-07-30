@@ -5,7 +5,6 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 Notice that the solution set must not contain duplicate triplets.
 
  
-
 Example 1:
 
 Input: nums = [-1,0,1,2,-1,-4]
@@ -33,15 +32,15 @@ Explanation: The only possible triplet sums up to 0.
 
 
  
-
 Constraints:
 
-3 <= nums.length <= 3000
--105 <= nums[i] <= 105
+
+	3 <= nums.length <= 3000
+	-105 <= nums[i] <= 105
 
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 768 ms  
-**Memory:** 18.3 MB  
+**Runtime:** 823 ms  
+**Memory:** 18.8 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/3sum/)
