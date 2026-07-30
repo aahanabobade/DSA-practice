@@ -3,7 +3,6 @@
 Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
 
  
-
 Example 1:
 
 Input: nums = [3,2,1]
@@ -35,19 +34,19 @@ The third distinct maximum is 1.
 
 
  
-
 Constraints:
 
-1 <= nums.length <= 104
--231 <= nums[i] <= 231 - 1
+
+	1 <= nums.length <= 104
+	-231 <= nums[i] <= 231 - 1
+
 
  
-
 Follow up: Can you find an O(n) solution?
 
 ---
 
 **Difficulty:** Easy  
 **Runtime:** 0 ms  
-**Memory:** 12.8 MB  
+**Memory:** 12.9 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/third-maximum-number/)
