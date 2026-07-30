@@ -9,6 +9,7 @@ Return the maximum amount of water a container can store.
 Notice that you may not slant the container.
 
  
+
 Example 1:
 
 Input: height = [1,8,6,2,5,4,8,3,7]
@@ -23,16 +24,16 @@ Output: 1
 
 
  
+
 Constraints:
 
-
-	n == height.length
-	2 <= n <= 105
-	0 <= height[i] <= 104
+n == height.length
+2 <= n <= 105
+0 <= height[i] <= 104
 
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 123 ms  
-**Memory:** 20.6 MB  
+**Runtime:** 121 ms  
+**Memory:** 20.8 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/container-with-most-water/)
