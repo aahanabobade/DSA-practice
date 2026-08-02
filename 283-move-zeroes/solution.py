@@ -1,6 +1,6 @@
 # Move Zeroes
 # Difficulty: Easy
-# Runtime: 6 ms
+# Runtime: 9 ms
 # Memory: 13.6 MB
 # https://leetcode.com/problems/move-zeroes/
 
