@@ -35,6 +35,6 @@ It's guaranteed that you can reach nums[n - 1].
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 13 ms  
-**Memory:** 13.2 MB  
+**Runtime:** 10 ms  
+**Memory:** 13.1 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/jump-game-ii/)
