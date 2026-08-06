@@ -32,6 +32,6 @@ Constraints:
 ---
 
 **Difficulty:** Medium  
-**Runtime:** 15 ms  
-**Memory:** 13.1 MB  
+**Runtime:** 11 ms  
+**Memory:** 13.3 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/maximum-product-subarray/)
