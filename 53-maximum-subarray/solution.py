@@ -1,7 +1,7 @@
 # Maximum Subarray
 # Difficulty: Medium
-# Runtime: 105 ms
-# Memory: 21.3 MB
+# Runtime: 102 ms
+# Memory: 21.1 MB
 # https://leetcode.com/problems/maximum-subarray/
 
 class Solution(object):
