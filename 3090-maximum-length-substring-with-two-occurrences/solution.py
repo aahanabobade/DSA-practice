@@ -1,0 +1,25 @@
+# Maximum Length Substring With Two Occurrences
+# Difficulty: Easy
+# Runtime: 4 ms
+# Memory: 12.3 MB
+# https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/
+
+        """
+        :type s: str
+        :rtype: int
+        """
+        count = {}
+        left = 0
+        ans = 0
+
+        for right in range(len(s)):
+            count[s[right]] = count.get(s[right], 0) + 1
+
+            while count[s[right]] > 2:
+                count[s[left]] -= 1
+                left += 1
+
+            ans = max(ans, right - left + 1)
+
+    def maximumLengthSubstring(self, s):
+class Solution(object):
