@@ -45,6 +45,6 @@ Constraints:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 40 ms  
+**Runtime:** 33 ms  
 **Memory:** 27.4 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/contains-duplicate/)
