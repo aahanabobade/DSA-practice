@@ -51,6 +51,6 @@ Constraints:
 ---
 
 **Difficulty:** Easy  
-**Runtime:** 4 ms  
-**Memory:** 12.6 MB  
+**Runtime:** 2 ms  
+**Memory:** 12.4 MB  
 **Link:** [LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/)
